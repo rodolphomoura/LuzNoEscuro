@@ -6,4 +6,4 @@ O LDR é colocado em um ambiente onde ele pode detectar a intensidade da luz amb
 O LDR está conectado em série com o resistor de 10k ohms para formar um divisor de tensão. A tensão na junção entre o LDR e o resistor varia de acordo com a luz ambiente. Quando estiver escuro, a resistência do LDR será alta, e a tensão será menor. Quando estiver claro, a resistência do LDR será baixa, e a tensão será maior.
 O Arduino está programado para ler a tensão na junção do LDR e do resistor usando uma de suas portas analógicas (por exemplo, A0). Através dessa leitura analógica, o Arduino pode determinar o nível de luminosidade no ambiente.
 Com base na leitura do LDR, o Arduino decide se deve acender ou apagar o LED. Se o nível de luminosidade for inferior a um valor predefinido (indicando que está escuro), o Arduino acenderá o LED. Caso contrário, ele o apagará.
-Acende no escuro, apaga no claro.
+Acende no escuro, apaga no claro. o código para colocar no ArduinoIDE é o "light_sensor_using_arduino.ino".
